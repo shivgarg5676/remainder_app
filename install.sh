@@ -15,6 +15,7 @@ sudo chmod 777 /usr/bin/timer_remainder.sh
 crontab -l > mycron
 #echo new cron into cron file
 echo '* * * * * eval "export $(egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME gnome-session)/environ)" && timer_remainder.sh' >> mycron
+echo "* * * * * timer_remainder.sh" >> mycron
 #install new cron file
 crontab mycron
 rm mycron
