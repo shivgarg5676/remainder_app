@@ -6,3 +6,4 @@ then
 notify-send $time
 espeak -v female3 "the time is $time" 
 fi
+
