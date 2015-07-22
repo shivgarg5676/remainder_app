@@ -4,7 +4,7 @@ month=`date | cut -d " " -f2`
 yearr=`date | cut -d " " -f6`
 hour_current=`date | cut -d " " -f4 | cut -d ":" -f1`
 minute_current=`date | cut -d " " -f4 | cut -d ":" -f2`
-source=/opt/.remainder/
+source=/tmp/.remainder/
 filename=$source$day-$month-$yearr
 if [ -f $filename ]
 then 

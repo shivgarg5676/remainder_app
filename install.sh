@@ -6,8 +6,8 @@ sudo cp ./timer.sh /usr/bin/timer.sh
 sudo chmod 777 /usr/bin/timer.sh
 sudo cp ./remainder.sh /usr/bin/remainder.sh
 sudo chmod 777 /usr/bin/remainder.sh
-sudo mkdir /tmp/.remainder/
-sudo chmod 777 /tmp/.remainder/
+sudo mkdir /opt/.remainder/
+sudo chmod 777 /opt/.remainder/
 sudo cp ./timer_remainder.sh /usr/bin/timer_remainder.sh
 sudo chmod 777 /usr/bin/timer_remainder.sh
 

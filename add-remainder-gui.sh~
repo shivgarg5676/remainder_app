@@ -17,6 +17,6 @@ month=`echo $datee | cut -d " " -f3`
 year=`echo $datee | cut -d " " -f4`
 month=${month:0:3}
 filename=$day-$month-$year
-filepath=/opt/.remainder/$filename
+filepath=/tmp/.remainder/$filename
 remainder="$hour\t$minute\t$title\t$description"
 echo -e $remainder >>$filepath
